@@ -8,7 +8,7 @@ import plotly.express as px
 import numpy as np
 
 # By default, unless you choose a different LLM, it will use BambooLLM.
-os.environ["PANDASAI_API_KEY"] = "$2a$10$avxu2E7rVx4XBEDHRAXw2.ZimD6hncDF6elhA4IyI30upnPK/CAee"
+os.environ["PANDASAI_API_KEY"] = ""
 
 # Function to be called when text input is submitted
 def process_prompt_llm(agent, input_text, X, Y):
